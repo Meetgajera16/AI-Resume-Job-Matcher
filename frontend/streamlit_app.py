@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# Make the project root accessible to Python
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
 import streamlit as st
 from fastapi import HTTPException
