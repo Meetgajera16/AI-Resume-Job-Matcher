@@ -1,5 +1,7 @@
 # AI Resume Job Matcher
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Launch_App-brightgreen?style=for-the-badge&logo=streamlit)](https://YOUR-APP-NAME.streamlit.app)
+
 An in-progress portfolio project that compares a resume with a job description and returns an auditable, evidence-backed match report.
 
 The advanced analysis path is deterministic and works without an OpenAI key. The separate RAG indexing/retrieval path can use OpenAI embeddings and ChromaDB when a key is configured.
